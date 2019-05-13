@@ -8,7 +8,8 @@
     grid-template-areas: 
         "box1 box1 box1"
         "box2 box3 box4"
-        "box5 box5 box5";
+        "box5 box5 box5"
+        "box6 box6 box6";
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
 }
@@ -59,6 +60,34 @@
     height: 600px;
 }
 
+.box6{
+    grid-area: box6;
+}
+
+.box7{
+    grid-area: box7;
+}
+
+.box8{
+    grid-area: box8;
+}
+
+.box9{
+    grid-area: box9;
+}
+
+.box10{
+    grid-area: box10;
+}
+
+.box11{
+    grid-area: box11;
+}
+
+.box12{
+    grid-area: box12;
+}
+
 p{
     padding: 30px;
 }
@@ -101,8 +130,24 @@ p{
     height: 90%;
     padding: 15px;
     width: 23%;
+    color: rgb(47, 47, 47);
 }
+
+.footer-flex div h1{
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 38px;
+    text-decoration: underline;
+    padding-bottom: 25px;
+    color: black;
+}
+
 
 .footer-flex div:nth-of-type(2){
     background-color: rgb(146, 146, 146);
+}
+
+.footer-flex div:nth-of-type(4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
