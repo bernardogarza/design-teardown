@@ -27,41 +27,36 @@
     color:black;
     font-size: 2.5em;
     text-align: center;
-    background: #696969;
+    background: #585858;
     display:inline-block;
     padding:8px;
 }
 
 .box1{
-    background-color: rgb(148, 148, 148);
+    background-color: rgb(146, 146, 146);
     grid-area: box1;
     height: 213.5px;
 }
 
 .box2{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(163, 163, 163);
     grid-area: box2;
 }
 
 .box3{
-    background-color: rgb(7, 219, 71);
+    background-color: rgb(112, 112, 112);
     grid-area: box3;
 }
 
 .box4{
-    background-color: rgb(0, 183, 255);
+    background-color: rgb(163, 163, 163);
     grid-area: box4;
 }
 
 .box5{
-    background-color: rgb(255, 0, 76);
+    background-color: rgb(190, 190, 190);
     grid-area: box5;
     height: 400px;
-}
-
-.box6{
-    background-color: rgb(4, 0, 255);
-    grid-area: box6;
 }
 
 p{
@@ -72,4 +67,33 @@ p{
 .box2,
 .box3 {
     height: 800px;
+}
+
+
+.header-flex{
+    display:flex;
+}
+
+.header-flex div{
+    border: 1px solid black;
+    height: 205px;
+    width: 100%;
+}
+
+.footer-flex{
+    display: flex;
+}
+
+.footer-flex div{
+    border: 1px solid black;
+    height: 50vh;
+    width: 100%;
+}
+
+.footer-flex div:nth-of-type(2){
+    background-color: rgb(146, 146, 146);
+}
+
+.container{
+    align-items: center;
 }
